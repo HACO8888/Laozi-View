@@ -9,7 +9,7 @@ import "@/styles/globals.scss";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "台灣老子關",
+  title: "台灣老子觀",
   description: "",
 };
 
