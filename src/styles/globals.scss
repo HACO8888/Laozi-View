@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.react-tabs__tab:focus:after {
+  background: none !important;
+}
+
+.react-pdf__Page__textContent {
+  display: none !important;
+}
+
+.react-pdf__Page__annotations {
+  display: none !important;
+}

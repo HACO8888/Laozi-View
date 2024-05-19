@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="h-[4rem] w-full border-b-[0.1rem] flex">
       <Link href="/" className="my-auto mx-[1rem] text-lg font-semibold flex-1">台灣老子觀</Link>
       <div className="max-lg:hidden  my-auto mx-[1rem] text-lg font-semibold flex-none flex gap-3">
-        <Link href="#">道脈源流</Link>
+        <Link href="/dao-mai-yuan-liou">道脈源流</Link>
         <Link href="#">陳子石宗師</Link>
         <Link href="#">歷代祖師</Link>
         <Link href="#">鑪峰修養刊</Link>
