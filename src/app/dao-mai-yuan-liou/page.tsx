@@ -39,193 +39,192 @@ export default function dao_mai_yuan_liou() {
           <Tab>生命學研究(二)</Tab>
         </TabList>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[0]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[0]}
+              pluginRenderers={DocViewerRenderers} config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
+        </TabPanel >
+        <TabPanel>
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[1]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[1]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[2]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[2]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[3]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[3]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[4]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[4]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[5]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[5]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[6]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[6]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[7]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[7]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[8]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[8]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[9]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
         <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[9]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
+          <div className="h-[calc(100dvh-15rem)] max-[598px]:h-[calc(100dvh-18rem)] max-[423px]:h-[calc(100dvh-20rem)]">
+            <DocViewer
+              documents={docs}
+              initialActiveDocument={docs[10]}
+              pluginRenderers={DocViewerRenderers}
+              config={{
+                header: {
+                  disableHeader: true,
+                  disableFileName: false,
+                  retainURLParams: false,
+                },
+                pdfVerticalScrollByDefault: true,
+              }}
+            />
+          </div>
         </TabPanel>
-        <TabPanel>
-          <DocViewer
-            documents={docs}
-            initialActiveDocument={docs[10]}
-            pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
-            config={{
-              header: {
-                disableHeader: true,
-                disableFileName: false,
-                retainURLParams: false,
-              },
-              pdfVerticalScrollByDefault: true,
-
-            }}
-          />
-        </TabPanel>
-      </Tabs>
-    </div>
+      </Tabs >
+    </div >
   );
 }
