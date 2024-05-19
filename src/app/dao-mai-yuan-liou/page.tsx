@@ -43,7 +43,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[0]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -60,7 +60,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[1]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -77,7 +77,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[2]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -94,7 +94,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[3]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -111,7 +111,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[4]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -128,7 +128,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[5]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -145,7 +145,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[6]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -162,7 +162,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[7]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -179,7 +179,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[8]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -196,7 +196,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[9]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
@@ -213,7 +213,7 @@ export default function dao_mai_yuan_liou() {
             documents={docs}
             initialActiveDocument={docs[10]}
             pluginRenderers={DocViewerRenderers}
-            style={{ height: "calc(100dvh - 15rem)" }}
+            style={{ height: "calc(100dvh - 18rem)" }}
             config={{
               header: {
                 disableHeader: true,
