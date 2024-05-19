@@ -10,6 +10,16 @@ import 'react-tabs/style/react-tabs.css';
 export default function dao_mai_yuan_liou() {
     const docs = [
         { uri: "/docs/dao-mai-yuan-liou/1.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/2.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/3.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/4.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/5.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/6.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/7.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/8.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/9.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/10.pdf" },
+        { uri: "/docs/dao-mai-yuan-liou/11.pdf" },
     ];
 
     return (
@@ -31,6 +41,23 @@ export default function dao_mai_yuan_liou() {
                 <TabPanel>
                     <DocViewer
                         documents={docs}
+                        initialActiveDocument={docs[0]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
                         initialActiveDocument={docs[1]}
                         pluginRenderers={DocViewerRenderers}
                         style={{ height: "calc(100dvh - 18rem)" }}
@@ -39,7 +66,6 @@ export default function dao_mai_yuan_liou() {
                                 disableHeader: true,
                                 disableFileName: false,
                                 retainURLParams: false,
-                                
                             },
                             pdfVerticalScrollByDefault: true,
 
@@ -47,7 +73,157 @@ export default function dao_mai_yuan_liou() {
                     />
                 </TabPanel>
                 <TabPanel>
-                    <h2>Any content 2</h2>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[2]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[3]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[4]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[5]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[6]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[7]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[8]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[9]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
+                </TabPanel>
+                <TabPanel>
+                    <DocViewer
+                        documents={docs}
+                        initialActiveDocument={docs[10]}
+                        pluginRenderers={DocViewerRenderers}
+                        style={{ height: "calc(100dvh - 18rem)" }}
+                        config={{
+                            header: {
+                                disableHeader: true,
+                                disableFileName: false,
+                                retainURLParams: false,
+                            },
+                            pdfVerticalScrollByDefault: true,
+
+                        }}
+                    />
                 </TabPanel>
             </Tabs>
         </div>
