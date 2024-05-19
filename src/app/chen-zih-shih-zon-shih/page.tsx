@@ -44,6 +44,7 @@ export default function dao_mai_yuan_liou() {
             initialActiveDocument={docs[0]}
             pluginRenderers={DocViewerRenderers}
             style={{ height: "calc(100dvh - 15rem)" }}
+            className="max-sm:!h-[calc(100dvh-25rem)]"
             config={{
               header: {
                 disableHeader: true,
