@@ -6,11 +6,11 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(-1);
 
   return (
     <nav className="h-[4rem] w-full border-b-[0.1rem] flex">
-      <Link href="/" className="my-auto mx-[1rem] text-lg font-semibold flex-1">台灣老子觀</Link>
+      <Link href="/" className="my-auto mx-[1rem] text-lg font-semibold flex-1" onClick={() => setPage(0)}>台灣老子觀</Link>
       <div className="max-lg:hidden  my-auto mx-[1rem] text-lg font-semibold flex-none flex gap-3">
         <Link href="/dao-mai-yuan-liou" className={"hover:opacity-80 " + (page === 0 && "bg-white text-black py-0.5 px-1.5 rounded-sm")} onClick={() => setPage(0)}>道脈源流</Link>
         <Link href="/chen-zih-shih-zon-shih" className={"hover:opacity-80 " + (page === 1 && "bg-white text-black py-0.5 px-1.5 rounded-sm")} onClick={() => setPage(1)}>陳子石宗師</Link>
