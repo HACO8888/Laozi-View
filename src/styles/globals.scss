@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -42,4 +39,17 @@ body {
 
 .react-pdf__Page__annotations {
   display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  margin-left: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: black !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray !important;
 }
