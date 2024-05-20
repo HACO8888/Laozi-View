@@ -42,11 +42,11 @@ export default function chen_zih_shih_zon_shih() {
         </TabPanel>
         <TabPanel>
           <div className="h-[calc(100dvh-13rem)] max-[439px]:h-[calc(100dvh-15rem)] overflow-scroll">
-            <img src="/docs/chen-zih-shih-zon-shih/2-1.jpg" />
+            <img src="/docs/chen-zih-shih-zon-shih/2-1.jpg" alt="picture 2-1" />
             <br />
-            <img src="/docs/chen-zih-shih-zon-shih/2-2.jpg" />
+            <img src="/docs/chen-zih-shih-zon-shih/2-2.jpg" alt="picture 2-2" />
             <br />
-            <img src="/docs/chen-zih-shih-zon-shih/2-3.jpg" />
+            <img src="/docs/chen-zih-shih-zon-shih/2-3.jpg" alt="picture 2-3" />
           </div>
         </TabPanel>
         <TabPanel>

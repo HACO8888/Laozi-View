@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link href="/">歷代祖師</Link>
         <Link href="/lu-fong-siou-yang-kan">鑪峰修養刊</Link>
         <Link href="/shih-cih-tu-hua">詩詞圖畫</Link>
-        <Link href="/">同門拾穗</Link>
+        <Link href="/tong-men-shih-suei">同門拾穗</Link>
         <Link href="/">四川唐門</Link>
         <Link href="/">丹經彙粹</Link>
         <Link href="/">出版書籍</Link>
