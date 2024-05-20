@@ -15,7 +15,7 @@ export default function tong_men_shih_suei() {
   ];
 
   return (
-    <div className="h-[calc(100dvh-9rem)] w-full pt-[0.5rem] px-[2rem] lg:max-w-[50rem] max-sm:px-[1rem] mx-auto">
+    <div className="h-[calc(100dvh-9rem)] w-full pt-[0.5rem] px-[2rem] max-w-[50rem] max-sm:px-[1rem] mx-auto">
       <Tabs>
         <TabList>
           <Tab>台灣</Tab>

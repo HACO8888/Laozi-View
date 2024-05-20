@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="max-lg:hidden  my-auto mx-[1rem] text-lg font-semibold flex-none flex gap-3">
         <Link href="/dao-mai-yuan-liou">道脈源流</Link>
         <Link href="/chen-zih-shih-zon-shih">陳子石宗師</Link>
-        <Link href="/">歷代祖師</Link>
+        <Link href="/li-dai-zu-shih">歷代祖師</Link>
         <Link href="/lu-fong-siou-yang-kan">鑪峰修養刊</Link>
         <Link href="/shih-cih-tu-hua">詩詞圖畫</Link>
         <Link href="/tong-men-shih-suei">同門拾穗</Link>
